@@ -8,8 +8,11 @@ Appropriately labels the data set with descriptive variable names.
 Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 1 read the train data
+
 2 read the test data
+
 3 read the respective subject and activity info and col bind to the train and test data
+
 4 combine the train and test data sets
 5 get the sensor parameters
 6 name the cols
