@@ -31,3 +31,7 @@ library(reshape2)
 varlabel <- setdiff(colnames(comb_filter),c("subject","activity"))
 comb_melt <- melt(comb_filter,id=c("subject","activity"),measure.vars=varlabel)
 
+#tidy data
+tidy_data <- dcast(comb_melt, subject + activity ~ variable, mean)
+# save data to file
+write.table(tidy_data, file="tidy_data.txt", row.name=FALSE)
