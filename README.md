@@ -7,14 +7,14 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# read the train data
-# read the test data
-# read the respective subject and activity info and col bind to the train and test data
-# combine the train and test data sets
-# get the sensor parameters
-# name the cols
-# get rid of unwanted cols that are not mean or std readings
-# summarise activity for each person
-# tidy data
-# save data to file
+1 read the train data
+2 read the test data
+3 read the respective subject and activity info and col bind to the train and test data
+4 combine the train and test data sets
+5 get the sensor parameters
+6 name the cols
+7 get rid of unwanted cols that are not mean or std readings
+8 summarise activity for each person
+9 tidy data
+10 save data to file
 
